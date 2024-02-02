@@ -43,7 +43,7 @@
 	// Load Wish Configuration When changing banner Version
 	const initialWish = async ({ patch, phase }) => {
 		if (!patch || !phase) return;
-		WishInstance = await WISH.init(patch, phase, $customData);
+		WishInstance = await WISH.init(patch, phase, $customData, true);
 	};
 	onMount(() => activeVersion.subscribe(initialWish));
 

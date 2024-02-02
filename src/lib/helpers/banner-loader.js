@@ -66,6 +66,7 @@ const useCustomBanner = async (bannerID) => {
 };
 
 const checkBeginnerBanner = () => {
+	return false;
 	const starterRollCount = rollCounter.get('beginner');
 	const isShowBeginner = starterRollCount < 20;
 	showBeginner.set(isShowBeginner);
@@ -90,8 +91,8 @@ export const initializeBanner = async ({ patch, phase }) => {
 			stdver
 		};
 		events.featured.forEach((eventdata) => list.push({ ...eventdata, ...charEventBanner }));
-		list.push({ type: 'weapon-event', stdver, ...weapons });
-		list.push({ type: 'standard', stdver, ...stdFeatured });
+		// list.push({ type: 'weapon-event', stdver, ...weapons });
+		// list.push({ type: 'standard', stdver, ...stdFeatured });
 
 		bannerList.set(list);
 		isFatepointSystem.set(!!weapons.fatepointsystem);

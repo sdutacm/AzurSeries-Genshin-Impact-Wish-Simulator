@@ -1,15 +1,16 @@
 {
-	"version": "4.4",
+	"version": "999.1",
 	"wishPhase": 1,
 	"storageVersion": "4.4.1",
 	"allPatch": [
 		1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 3.0, 3.1, 3.2,
-		3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 4.0, 4.1, 4.2, 4.3, 4.4
+		3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 4.0, 4.1, 4.2, 4.3, 4.4, 999.1, 999.2
 	],
+	"animatedBG": true,
 	"initialAmount": {
-		"primogem": 8000,
-		"fates": 25,
-		"genesis": 0,
+		"primogem": 114514,
+		"fates": 9999,
+		"genesis": 9999,
 		"shareReward": 16000
 	},
 	"welkinReward": {
@@ -18,14 +19,15 @@
 	},
 	"probabilityRates": {
 		"character-event": {
-			"baseRate5": 0.6,
+			"baseRate5": 100,
 			"max5": 90,
 			"hard5": 74,
 			"baseRate4": 5.1,
 			"max4": 10,
 			"hard4": 9,
 			"winRate": 50,
-			"charRate": 50
+			"charRate": 50,
+			"guaranteed":"never"
 		},
 		"weapon-event": {
 			"baseRate5": 0.7,

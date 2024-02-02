@@ -6,7 +6,7 @@ import standardWish from './wishStandard';
 import roll from './roll';
 
 const WISH = {
-	async init(version, phase, customData) {
+	async init(version, phase, customData, spUp = false) {
 		this._version = version;
 		this._phase = phase;
 
@@ -19,6 +19,7 @@ const WISH = {
 		this._weapons = weapons;
 		this._standardVer = standardVersion;
 		this._customData = {};
+		this._spUp = spUp;
 		return this;
 	},
 
@@ -42,7 +43,8 @@ const WISH = {
 			customData: this._customData,
 			indexOfBanner,
 			featured,
-			rateup
+			rateup,
+			spUp: this._spUp,
 		});
 
 		const result = eventBanner.get(rarity);

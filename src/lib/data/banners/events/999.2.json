@@ -1,0 +1,57 @@
+{
+	"patch": 999.2,
+	"data": [
+		{
+			"phase": 1,
+			"banners": {
+				"standardVersion": 4,
+				"events": {
+					"featured": [
+						{
+							"bannerName": "spup-13-1",
+							"character": "kamisato-ayaka",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-14-1",
+							"character": "nahida",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-15-1",
+							"character": "furina",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-16-1",
+							"character": "player-boy",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-17-1",
+							"character": "player-girl",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-18-1",
+							"character": "razor",
+							"textOffset": { "l": 68, "b": 10 }
+						}
+					],
+					"rateup": []
+				},
+				"weapons": {
+					"bannerName": "",
+					"fatepointsystem": true,
+					"featured": [
+					],
+					"rateup": [],
+					"textOffset": {
+						"featured": { "l": 47, "t": 68, "w": 28 },
+						"rateup": { "l": 77, "b": 23 }
+					}
+				}
+			}
+		}
+	]
+}

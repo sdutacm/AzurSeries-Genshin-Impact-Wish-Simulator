@@ -176,7 +176,7 @@
 		class="uid"
 		title="Try Your Luck by this Simulator"
 	>
-		WishSimulator.App
+	【蔚蓝系列赛原神角色许愿】 Powered by WishSimulator.App
 	</a>
 </main>
 
@@ -206,7 +206,8 @@
 
 	@font-face {
 		font-family: 'GI_ZH_Web';
-		src: url('/fonts/optimized_zh_web.woff2') format('woff2');
+		/* src: url('/fonts/optimized_zh_web.woff2') format('woff2'); */
+		src: url('/fonts/full_zh_web.woff2') format('woff2');
 		font-weight: normal;
 		font-style: normal;
 	}
@@ -244,7 +245,7 @@
 		z-index: 9999;
 		color: #fff;
 		text-shadow: 0 0 1.5px rgba(0, 0, 0, 0.7);
-		font-family: Roboto, sans-serif;
+		/* font-family: Roboto, sans-serif; */
 		pointer-events: none;
 	}
 

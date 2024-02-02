@@ -181,7 +181,7 @@
 					</button>
 				{/if}
 
-				<button
+				<!-- <button
 					class="ten wish-button"
 					on:click={handleMultiRollClick}
 					disabled={$onWish || !$readyToPull}
@@ -206,7 +206,7 @@
 							</span>
 						{/if}
 					</div>
-				</button>
+				</button> -->
 			</div>
 		{:else}
 			<div class="left menu-button" />

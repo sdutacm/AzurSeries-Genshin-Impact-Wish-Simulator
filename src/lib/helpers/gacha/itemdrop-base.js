@@ -187,7 +187,9 @@ export const get5StarItem = ({
 
 // RateUp Probability
 export const isRateup = (banner) => {
-	const winRate = getRate(banner, 'winRate');
+	let winRate = getRate(banner, 'winRate');
+	const bonusWinRate = getRate(banner, 'bonusWinRate');
+	winRate = Math.min(100, winRate + (bonusWinRate || 0));
 	const { item } = prob([
 		{ item: 'rateup', chance: winRate },
 		{ item: 'std', chance: 100 - winRate }

@@ -93,7 +93,7 @@
 	</div>
 {/if}
 
-<div class="screenshot-button">
+<!-- <div class="screenshot-button">
 	{#if isFirstTimeShare && canshare}
 		<span>
 			{$t('rewardFirstShare', { values: { qty: initialAmount.shareReward } })}
@@ -103,7 +103,7 @@
 	<ButtonGeneral on:click={takeShot} disabled={loading}>
 		{btnTxt}
 	</ButtonGeneral>
-</div>
+</div> -->
 
 <style>
 	.screenshot-button {

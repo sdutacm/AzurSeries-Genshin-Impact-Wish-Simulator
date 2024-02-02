@@ -175,10 +175,10 @@
 			"findBanner": "搜索卡池",
 			"group": "分组",
 			"beginner": " 初行者推荐祈愿",
-			"character-event": "角色活动祈愿",
+			"character-event": "个人专属角色祈愿",
 			"weapon-event": "武器活动祈愿",
 			"standard": "常驻祈愿",
-			"wishDescription": "每十次祈愿必出四星或以上物品。",
+			"wishDescription": "每次祈愿必出指定角色或常驻五星。",
 			"novice": "新手祈愿",
 			"up": "UP!",
 			"beginnerSet": "十连8折，首次必得{character}",
@@ -187,8 +187,8 @@
 			"standardNote": "常驻祈愿，永久性祈愿活动。",
 			"allWeaponTypes": "全部类型",
 			"etc": "等",
-			"probIncreased": "获取概率提升！",
-			"eventNote": "活动限定五星角色仅在UP期间，通过对应祈愿获得。",
+			"probIncreased": "旅行者指定角色获取概率提升！",
+			"eventNote": "指定角色在UP期间，通过对应祈愿获得。",
 			"viewDetails": "具体内容查看【详情】"
 		},
 		"epitomizedPath": {

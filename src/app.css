@@ -157,6 +157,10 @@ a:hover {
 .bg-epitome {
 	background-color: #ef7c1aff;
 }
+/* fallback */
+.bg- {
+	background-color: #565654;
+}
 
 .card-stroke {
 	/* prettier-ignore */

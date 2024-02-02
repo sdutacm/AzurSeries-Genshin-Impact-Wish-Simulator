@@ -93,6 +93,10 @@
 		"name": "阿贝多",
 		"title": "白垩之子"
 	},
+	"aloy": {
+		"name": "埃洛伊",
+		"title": "「异界的救世主」"
+	},
 	"alhaitham": {
 		"name": "艾尔海森",
 		"title": "诲韬诤言"
@@ -396,5 +400,13 @@
 	"zhongli": {
 		"name": "钟离",
 		"title": "尘世闲游"
+	},
+	"player-boy": {
+		"name": "旅行者·空",
+		"title": "？？？"
+	},
+	"player-girl": {
+		"name": "旅行者·荧",
+		"title": "？？？"
 	}
 }

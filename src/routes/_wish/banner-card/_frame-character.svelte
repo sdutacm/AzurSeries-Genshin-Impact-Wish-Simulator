@@ -6,13 +6,16 @@
 	import { positionToStyle } from '$lib/helpers/cssPosition';
 	import { getBannerName, highlightBannerName } from '$lib/helpers/nameText';
 	import { getCharDetails } from '$lib/helpers/gacha/itemdrop-base';
+	import spUpConfig from '$lib/data/sp-up.json';
 
 	export let bannerName = '';
 	export let character = '';
 	export let textOffset = {};
 	export let event2 = false;
 
-	$: localeBannerName = $t(`banner.${getBannerName(bannerName).name}`);
+	$: localeBannerName = bannerName.startsWith('spup-')
+		? spUpConfig.banner[getBannerName(bannerName).name] || '？？？'
+		: $t(`banner.${getBannerName(bannerName).name}`);
 	$: vision = getCharDetails(character).vision;
 	$: featuredC = `--text-width: calc(${textOffset?.w || 30} / 100 * var(--content-width));`;
 

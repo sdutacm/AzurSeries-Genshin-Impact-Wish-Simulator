@@ -1,4 +1,4 @@
-import { storageVersion, version as siteVersion, wishPhase } from '$lib/data/wish-setup.json';
+import { storageVersion, version as siteVersion, wishPhase, animatedBG } from '$lib/data/wish-setup.json';
 import {
 	autoskip,
 	beginnerRemaining,
@@ -63,6 +63,7 @@ export const setBannerVersionAndPhase = () => {
 	if (localstoreVersion !== storageVersion) {
 		localConfig.set('version', `${siteVersion}-${wishPhase}`);
 		localConfig.set('storageVersion', storageVersion);
+		localConfig.set('animatedBG', animatedBG);
 		[patch, phase] = [siteVersion, wishPhase];
 	}
 	preloadVersion.set({ patch: patch, phase: parseInt(phase) });

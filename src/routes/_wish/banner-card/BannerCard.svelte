@@ -4,6 +4,7 @@
 	import { t } from 'svelte-i18n';
 	import { assets, isCustomBanner } from '$lib/store/app-stores';
 	import { playSfx } from '$lib/helpers/audio/audio';
+	import { getCharDetails } from '$lib/helpers/gacha/itemdrop-base';
 
 	import FrameBeginner from './_frame-beginner.svelte';
 	import FrameCharacter from './_frame-character.svelte';
@@ -19,9 +20,11 @@
 	export let editor = false;
 
 	// prettier-ignore
-	let type, featured, character, bannerName, rateup, textOffset, charTitle, vision, images, artPosition;
+	let type, featured, character, bannerName, rateup, textOffset, charTitle, images, artPosition;
 	// prettier-ignore
-	$: ({ type, featured, character, bannerName, rateup, textOffset, charTitle, vision, images, artPosition, watermark } = data);
+	$: ({ type, featured, character, bannerName, rateup, textOffset, charTitle, images, artPosition, watermark } = data);
+
+	$: vision = data.vision || getCharDetails(character).vision;
 
 	let clientWidth;
 	let clientHeight;
@@ -86,11 +89,12 @@
 		{:else if type === 'character-event'}
 			<BannerImage
 				isError={imageError}
-				src={$assets[bannerName]}
+				src={$assets[bannerName] || $assets[`blank/${vision}`] || $assets[`blank/default`]}
+				vision={vision}
 				alt="Character Event Banner"
 				wrapperClass="card-image skeleton-event"
 			/>
-			{#if !bannerName || imageError}
+			{#if !bannerName || imageError || !$assets[bannerName]}
 				<div class="character" in:fly={{ x: 20, duration: 850 }}>
 					<img
 						class="splash-art"
@@ -102,7 +106,7 @@
 				</div>
 			{/if}
 			<div class="frame skeleton-event">
-				<FrameCharacter {character} {textOffset} {bannerName} event2={index === 2} />
+				<FrameCharacter {character} {textOffset} {bannerName} event2={false} />
 			</div>
 		{:else if type === 'standard'}
 			<BannerImage

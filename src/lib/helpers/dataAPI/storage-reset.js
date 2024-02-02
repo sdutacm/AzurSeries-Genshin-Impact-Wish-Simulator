@@ -1,4 +1,4 @@
-import { wishPhase, version, initialAmount, storageVersion } from '$lib/data/wish-setup.json';
+import { wishPhase, version, initialAmount, storageVersion, animatedBG } from '$lib/data/wish-setup.json';
 import { HistoryManager } from './api-indexeddb';
 import { localConfig, storageLocal } from './api-localstore';
 import {
@@ -75,6 +75,7 @@ export const factoryReset = async ({ clearCache = false, keepSetting = false } =
 
 	localConfig.set('storageVersion', storageVersion);
 	localConfig.set('version', `${version}-${wishPhase}`);
+	localConfig.set('animatedBG', animatedBG);
 	preloadVersion.set({ patch: version, phase: wishPhase });
 	activeBanner.set(0);
 

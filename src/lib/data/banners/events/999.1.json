@@ -1,0 +1,87 @@
+{
+	"patch": 999.1,
+	"data": [
+		{
+			"phase": 1,
+			"banners": {
+				"standardVersion": 4,
+				"events": {
+					"featured": [
+						{
+							"bannerName": "spup-1-1",
+							"character": "kamisato-ayaka",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-2-1",
+							"character": "nahida",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-3-1",
+							"character": "furina",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-4-1",
+							"character": "player-boy",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-5-1",
+							"character": "player-girl",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-6-1",
+							"character": "razor",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-7-1",
+							"character": "yun-jin",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-8-1",
+							"character": "shikanoin-heizou",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-9-1",
+							"character": "yaoyao",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-10-1",
+							"character": "xinyan",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-11-1",
+							"character": "nahida",
+							"textOffset": { "l": 68, "b": 10 }
+						},
+						{
+							"bannerName": "spup-12-1",
+							"character": "nahida",
+							"textOffset": { "l": 68, "b": 10 }
+						}
+					],
+					"rateup": []
+				},
+				"weapons": {
+					"bannerName": "",
+					"fatepointsystem": true,
+					"featured": [
+					],
+					"rateup": [],
+					"textOffset": {
+						"featured": { "l": 47, "t": 68, "w": 28 },
+						"rateup": { "l": 77, "b": 23 }
+					}
+				}
+			}
+		}
+	]
+}
