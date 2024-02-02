@@ -112,6 +112,9 @@ const config = {
 			'@images': path.resolve(__dirname, './src/images')
 		}
 	},
+	define: {
+		__BONUS_WIN_RATE__: JSON.stringify(process.env.BONUS_WIN_RATE || ''),
+	},
 	build: {
 		chunkSizeWarningLimit: 350,
 		target: ['es2020']
