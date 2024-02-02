@@ -22,6 +22,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"type": "module",
+	"packageManager": "yarn@1.22.19",
 	"devDependencies": {
 		"@sveltejs/adapter-cloudflare": "^4.1.0",
 		"@sveltejs/adapter-vercel": "^1.0.0-next.66",
