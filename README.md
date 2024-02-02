@@ -1,4 +1,16 @@
-# Realistic Genshin Impact Wish Simulator
+# 蔚蓝系列赛角色许愿
+
+该项目 fork 自 [Genshin-Impact-Wish-Simulator](https://github.com/Mantan21/Genshin-Impact-Wish-Simulator) 的 4.4 版本。
+
+## 改动
+
+- 仅支持单角色池且移除了新手池和武器池，无论四星五星都可以作为池子。规则调整默认为单抽必中指定角色或常驻五星之一
+- 补齐了旅行者·空、旅行者·荧、埃洛伊的立绘
+- 补齐莫娜和全部四星角色的卡池缩略图
+
+------
+
+Original README:
 
 ![License](https://badgen.net/github/license/Mantan21/Genshin-Impact-Wish-Simulator?icon:github) ![Repo Size](https://img.shields.io/github/repo-size/Mantan21/Genshin-Impact-Wish-Simulator?color=fa0) [![CodeFactor](https://www.codefactor.io/repository/github/mantan21/genshin-impact-wish-simulator/badge)](https://www.codefactor.io/repository/github/Mantan21/genshin-impact-wish-simulator) ![Status](https://badgen.net/github/checks/Mantan21/Genshin-Impact-Wish-Simulator) ![Code Standard](https://badgen.net/badge/code%20style/standard/f2a) [![Trakteer](https://badgen.net/badge/Trakteer/Mantan21/BE1E2D)](https://trakteer.id/mantan21)
 
