@@ -1,0 +1,23 @@
+[
+  {
+    "userId": 1,
+    "nickname": "小明",
+    "school": "提瓦特学院",
+    "genshinXpCharacter": "Klee",
+    "genshinUid": "100000000"
+  },
+  {
+    "userId": 2,
+    "nickname": "小红",
+    "school": "沙梨大学",
+    "genshinXpCharacter": "Furina",
+    "genshinUid": "100000001"
+  },
+  {
+    "userId": 3,
+    "nickname": "小黄",
+    "school": "提瓦特学院",
+    "genshinXpCharacter": "Xingqiu",
+    "genshinUid": "100000002"
+  }
+]

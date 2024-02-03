@@ -1,0 +1,23 @@
+[
+  {
+    "userId": 4,
+    "nickname": "小白",
+    "school": "提瓦特学院",
+    "genshinXpCharacter": "Nahida",
+    "genshinUid": "100000003"
+  },
+  {
+    "userId": 5,
+    "nickname": "诶嘿诶嘿诶嘿诶嘿",
+    "school": "沙梨大学",
+    "genshinXpCharacter": "Ayaka",
+    "genshinUid": "100000004"
+  },
+  {
+    "userId": 6,
+    "nickname": "小黑",
+    "school": "提瓦特学院",
+    "genshinXpCharacter": "Keqing",
+    "genshinUid": "100000005"
+  }
+]
